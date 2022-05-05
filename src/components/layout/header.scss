@@ -1,0 +1,48 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 6rem;
+  margin-bottom: 6rem;
+
+  .logo {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.6rem;
+    cursor: pointer;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 2.2rem;
+
+    li {
+      font-family: "Inter";
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: filter 0.3s;
+
+      &:hover {
+        filter: brightness(0.9);
+      }
+    }
+
+    button {
+      width: 190px;
+      height: 40px;
+      font-family: "Inter";
+      border: 1px solid var(--white-100);
+      background-color: transparent;
+      color: var(--white);
+      font-weight: bold;
+      border-radius: 10px;
+      transition: filter 0.3s;
+
+      &:hover {
+        filter: brightness(0.9);
+      }
+    }
+  }
+}

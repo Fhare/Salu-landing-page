@@ -1,0 +1,34 @@
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.2rem;
+
+  h2 {
+    font-size: 2.7rem;
+    font-weight: normal;
+    font-family: "Poppins"
+  }
+
+  span {
+    color: var(--white-100);
+    font-family: "Merriweather";
+    font-size: 1rem;
+  }
+
+  .hero-btn {
+    margin-top: 3rem;
+    width: 270px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--primary);
+    font-size: 1.025rem;
+    color: var(--gray-500);
+    transition: filter 0.3s;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+}
