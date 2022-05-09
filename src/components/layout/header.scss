@@ -28,21 +28,5 @@ header {
         filter: brightness(0.9);
       }
     }
-
-    button {
-      width: 190px;
-      height: 40px;
-      font-family: "Inter";
-      border: 1px solid var(--white-100);
-      background-color: transparent;
-      color: var(--white);
-      font-weight: bold;
-      border-radius: 10px;
-      transition: filter 0.3s;
-
-      &:hover {
-        filter: brightness(0.9);
-      }
-    }
   }
 }

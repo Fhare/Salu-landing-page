@@ -1,4 +1,5 @@
-// import { CardService } from "./CardService";
+import { CardService } from "../../elements/CardService";
+import { SectionPlaceholder } from "./SectionPlaceholder";
 
 import { IoPhonePortraitOutline as Phone } from "react-icons/io5";
 import {
@@ -6,16 +7,15 @@ import {
   MdComputer as Computer
 } from "react-icons/md";
 
-import "./styles.scss";
+import "./_services.scss";
 
-export function Services() {
+export function SectionServices() {
   return (
     <section className="services-container">
-      <span>Serviços</span>
-      <h1 className="service-heading">O que nós oferecemos?</h1>
-
+      <SectionPlaceholder title="Serviços" description="O que nós oferecemos?" />
+      
       <article>
-        {/* <CardService info={{ title: "Gerenciamento de midias sociais", description: "Descrição aqui" }}>
+        <CardService info={{ title: "Gerenciamento de midias sociais", description: "Descrição aqui" }}>
           <Phone size={42} color="#F2C94C" />
         </CardService>
         <CardService info={{ title: "Fotográfias 100% autorais", description: "Descrição aqui" }}>
@@ -23,7 +23,7 @@ export function Services() {
         </CardService>
         <CardService info={{ title: "Landing page para apresentar o seu negócio", description: "Descrição aqui" }}>
           <Computer size={42} color="#F2C94C" />
-        </CardService> */}
+        </CardService>
       </article>
     </section>
   )

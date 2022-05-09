@@ -1,3 +1,7 @@
+import { Button } from "../elements/Button";
+
+import "./header.scss";
+
 export function Header() {
   return (
     <header>
@@ -9,7 +13,7 @@ export function Header() {
         <li>Sua jornada</li>
         <li>Contato</li>
 
-        <button>Entrar em contato</button>
+        <Button />
       </ul>
     </header>
   );

@@ -1,0 +1,18 @@
+.placeholder-container {
+  text-align: center;
+  margin-bottom: 6rem;
+
+  h2 {
+    font-size: 0.8rem;
+    color: var(--gray-300);
+    font-family: "Poppins";
+    text-transform: uppercase;
+    margin: 2rem 0;
+  }
+  
+  span {
+    font-size: 2rem;
+    color: var(--white);
+    font-family: "Inter";
+  }
+}

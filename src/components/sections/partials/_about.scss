@@ -1,0 +1,25 @@
+.about-content {
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .about-main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; 
+    max-width: 400px;
+
+    h1 {
+      font-size: 2.7rem;
+      font-family: "Inter";
+      color: var(--white);
+    }
+
+    p {
+      font-family: "Merriweather";
+      font-size: 1rem;
+      color: var(--white);
+    }
+  }
+}

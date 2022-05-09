@@ -1,8 +1,13 @@
+import { SectionPlaceholder } from "./SectionPlaceholder";
+
+import "./_journey.scss";
+
 export function SectionJourney() {
   return (
     <section>
-      <h2>Sua jornada conosco</h2>
-      <span>Como que nós iremos trabalhar?</span>
+      <SectionPlaceholder title="Sua jornada" description="Como irá ser sua jornada com a gente?" />
+
+      
     </section>
   );
 }

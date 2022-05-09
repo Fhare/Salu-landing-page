@@ -1,0 +1,22 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 396px;
+  height: 430px;
+  background-color: var(--gray-500);
+  padding: 2rem;
+  border-radius: 1.6rem;
+
+  div .line {
+    width: 80px;
+    height: 1px;
+    background-color: var(--gray-300);
+  }
+
+  div h2 {
+    font-size: 2rem;
+    color: var(--primary);
+    font-family: "Inter";
+  }
+}
